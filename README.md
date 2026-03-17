@@ -6,7 +6,7 @@ This repository demonstrates how to design scalable, extensible, and production-
 
 ---
 
-## 🚀 Features
+## Features
 
 - Modular RAG pipelines with document stores and retrievers
 - Custom components for extending pipeline capabilities
@@ -17,7 +17,7 @@ This repository demonstrates how to design scalable, extensible, and production-
 
 ---
 
-## 🧠 Architecture Overview
+## Architecture Overview
 
 This project leverages Haystack’s core abstractions:
 
@@ -33,7 +33,7 @@ The system is designed to be:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ### 1. Build Customized RAG
 Implements a retrieval-augmented generation pipeline with document ingestion, retrieval, and LLM-based answer generation.
@@ -52,7 +52,7 @@ Builds a tool-augmented chat agent using function calling to invoke pipelines dy
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ```bash
 git clone https://github.com/your-username/Haystack-Agentic-RAG-Pipelines.git
@@ -74,7 +74,7 @@ Run notebooks in sequence to explore:
 4 → Self-Reflecting Agents
 5 → Chat Agent
 
-🧩 Key Learnings
+## Key Learnings
 
 Designing composable LLM systems using pipeline abstractions
 
@@ -86,7 +86,7 @@ Building agentic workflows with loops and validation
 
 Integrating tool use via function calling
 
-📈 Use Cases
+## Use Cases
 
 Knowledge assistants with RAG
 
@@ -98,7 +98,7 @@ Autonomous agents with self-correction
 
 Multi-step reasoning systems
 
-🔮 Future Improvements
+## Future Improvements
 
 Add evaluation pipelines (LLM-as-judge)
 
@@ -108,7 +108,7 @@ Add async execution for latency optimization
 
 Deploy as API using FastAPI + Docker
 
-🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Haystack
